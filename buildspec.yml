@@ -16,5 +16,5 @@ phases:
     - mv target/demoapp.war demoapp.war
 artifacts:
   files:
-  - prayerapp-0.0.1-SNAPSHOT.war
+  - demoapp.war
   - .ebextensions/**/*
