@@ -13,7 +13,7 @@ phases:
     commands:
     - echo Build completed on `date`
     - mvn package
-    - mv tmp/demoapp.war demoapp.war
+    - mv tmp/demoapp.war /home/ubuntu/demoapp.war
 artifacts:
   files:
   - demoapp.war
