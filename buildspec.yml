@@ -13,8 +13,8 @@ phases:
     commands:
     - echo Build completed on `date`
     - mvn package
-    - mv target/demoapp.war demoapp.war
+    - mv target/demo-0.0.1-SNAPSHOT.war demo-0.0.1-SNAPSHOT.war
 artifacts:
   files:
-  - demoapp.war
+  - demo-0.0.1-SNAPSHOT.war
   - .ebextensions/**/*
